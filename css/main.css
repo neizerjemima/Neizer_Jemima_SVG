@@ -68,8 +68,19 @@ div,p,body,header,footer,section,article,nav {
     width: 75%;
     text-align: center;
     margin-left: 10%;
-    
+	cursor: pointer;    
 }
+
+.icons img:hover { 
+	flex-grow: 3;
+	background-color: rgb(253, 90, 90);
+	color: rgb(0, 0, 0);
+	border: 2px solid;
+	margin: 50px;
+	text-align: center;
+	transition: all 0.5s ease-in;
+}
+
 
 .icons h2 {
     font-size: 30px;
